@@ -8,8 +8,6 @@ import os, json, time, uuid
 
 load_dotenv()
 
-# Add this right after app = FastAPI(...)
-
 # Environment variables
 CLIENT_ID = os.getenv("ZITADEL_CLIENT_ID")
 TOKEN_URL = os.getenv("ZITADEL_TOKEN_URL")
